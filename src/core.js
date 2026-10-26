@@ -6,6 +6,8 @@ export { INITIAL_SIGN_DATA } from './sign/signData.js'
 export { buildSignContent } from './sign/signContent.js'
 export { getDefaultValues, NAME_TITLES, emailFromName, resolveSignValues } from './sign/signDefaults.js'
 export { ORGANIZATIONS, ORGANIZATION_KEYS, DEFAULT_ORGANIZATION, resolveOrganization, switchOrganization } from './sign/organizations.js'
+// The department hierarchy the editor offers (the logo kit's), for hosts naming a department.
+export { departmentTypes } from '../vendor/unbc-logo/src/departments/departmentData.js'
 export { DEPARTMENT_LEVELS, departmentChildren, departmentAreaName, findDepartmentPath, resolveDepartmentPath, selectDepartmentLevel, departmentSelection } from './sign/departmentPath.js'
 export { ROLE_UNIT_LAYOUTS, ROLE_TITLE_LAYOUTS, ROLE_UNIT_DIVIDERS, EMPTY_ROLE, normalizeRole, normalizeRoles, splitRoleTitle, separateRoleUnit } from './sign/signRoles.js'
 export { SIGN_ARCHIVE_FORMAT, SIGN_ARCHIVE_VERSION, normalizeSignData, createSignArchive, parseSignArchive } from './sign/signArchive.js'
