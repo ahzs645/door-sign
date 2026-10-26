@@ -1,0 +1,15 @@
+/* The door-sign editor's styles, in cascade order (do not reorder the imports). Every rule is
+   scoped to .door-sign-app (scripts/scope-css.py), so the editor can sit in another app's page:
+   put it inside an element with that class, or give the class to <html> in an app of its own. */
+
+@import './fonts.css';            /* @font-face brand faces + Google Inter import */
+@import './base.css';             /* light + dark design tokens, reset, app bar, workspace, pages */
+@import './preview.css';          /* output cards, preview stage, print guides, holder window, specs */
+@import './form.css';             /* editor sections, fields, sign type, department, contact rows */
+@import './select.css';           /* custom (non-native) dropdown trigger + listbox */
+@import './sign.css';             /* rendered door-sign artwork, designations, export buttons */
+@import './switch.css';           /* email/phone show-on-sign toggle switch */
+@import './responsive.css';       /* compact (<960px) editor tabs + dock, phone (<600px) tweaks */
+@import './export-controls.css';  /* fit warning, segmented control, appearance panel, measuring sheets */
+@import './archive.css';         /* saved-signs browser, sign search combobox, editor archive navigator */
+@import './a11y.css';             /* focus rings, reduced-motion, export-button breakpoint */

@@ -1,0 +1,41 @@
+{
+  "name": "@ahzs645/door-sign",
+  "version": "1.0.0",
+  "private": true,
+  "description": "UNBC door signs as reusable parts: the sign renderer, geometry, PDF/PNG export, print sheets, card holders, saved-sign archives and the editor. Consumed from source as a git submodule by UNBCDoor and brandkit.",
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./core": "./src/core.js",
+    "./styles.css": "./src/styles/door-sign.css",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "fonts",
+    "scripts"
+  ],
+  "scripts": {
+    "demo": "vite",
+    "build:demo": "vite build",
+    "test": "node --test \"src/**/*.test.js\"",
+    "scope:css": "python3 scripts/scope-css.py src/styles/*.css"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "dependencies": {
+    "jspdf": "^3.0.1",
+    "svg2pdf.js": "^2.5.0"
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^6.0.2",
+    "vite": "^8.0.16"
+  }
+}
