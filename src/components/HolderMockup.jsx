@@ -1,7 +1,7 @@
 import React, { useId } from 'react'
-import { BLEED_INCHES } from '../sign/signConstants'
-import { formatLength } from '../sign/units'
-import { useUnits } from '../hooks/useUnits'
+import { BLEED_INCHES } from '../sign/signConstants.js'
+import { formatLength } from '../sign/units.js'
+import { useUnits } from '../hooks/useUnits.js'
 
 // The sign as it hangs on the door: the black room plate (room number, and on older plates a
 // coloured rule and a braille strip) with the printed insert behind its window. Only the window

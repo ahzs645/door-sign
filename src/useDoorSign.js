@@ -3,10 +3,10 @@
 // preview, both exporters and the appearance panel all read.
 
 import { useMemo } from 'react'
-import { useCardHolders } from './hooks/useCardHolders'
-import { useSignState } from './hooks/useSignState'
-import { useSignArchive } from './hooks/useSignArchive'
-import { buildSignContent } from './sign/signContent'
+import { useCardHolders } from './hooks/useCardHolders.js'
+import { useSignState } from './hooks/useSignState.js'
+import { useSignArchive } from './hooks/useSignArchive.js'
+import { buildSignContent } from './sign/signContent.js'
 
 /**
  * @param {object} [options]

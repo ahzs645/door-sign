@@ -1,12 +1,12 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
-import { cardHolders as builtInHolders } from '../data/cardHolders'
+import { cardHolders as builtInHolders } from '../data/cardHolders.js'
 import {
   CUSTOM_HOLDERS_KEY,
   readCustomHolders,
   toCardHolder,
   toCustomRecord,
   writeCustomHolders
-} from '../sign/customHolders'
+} from '../sign/customHolders.js'
 
 // The built-in holder presets plus the custom ones saved in this browser. A custom holder never
 // shadows a built-in one of the same name.

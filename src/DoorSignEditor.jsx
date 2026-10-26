@@ -4,13 +4,13 @@
 // pages, share links and saved-signs archive data.
 
 import React, { useState } from 'react'
-import { SignForm } from './components/SignForm'
-import { SignPreview } from './components/SignPreview'
-import { CredentialsSection } from './components/CredentialsSection'
-import { SignStyleControls } from './components/SignStyleControls'
-import { ArchiveNavigator } from './components/ArchiveNavigator'
-import { LivePreview } from './components/LivePreview'
-import { useMediaQuery } from './hooks/useMediaQuery'
+import { SignForm } from './components/SignForm.jsx'
+import { SignPreview } from './components/SignPreview.jsx'
+import { CredentialsSection } from './components/CredentialsSection.jsx'
+import { SignStyleControls } from './components/SignStyleControls.jsx'
+import { ArchiveNavigator } from './components/ArchiveNavigator.jsx'
+import { LivePreview } from './components/LivePreview.jsx'
+import { useMediaQuery } from './hooks/useMediaQuery.js'
 import { departmentTypes } from '../vendor/unbc-logo/src/index.js'
 
 const LIVE_PREVIEW_KEY = 'unbc-door-sign:live-preview-hidden'

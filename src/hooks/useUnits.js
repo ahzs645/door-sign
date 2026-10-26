@@ -1,5 +1,5 @@
 import { useSyncExternalStore } from 'react'
-import { DEFAULT_UNITS, UNIT_CHOICES } from '../sign/units'
+import { DEFAULT_UNITS, UNIT_CHOICES } from '../sign/units.js'
 
 // The measurement units picked under Settings, shared by every screen and kept in this browser.
 // Storage can be unavailable (private mode, blocked site data); then the choice lasts this visit.

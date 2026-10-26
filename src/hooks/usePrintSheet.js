@@ -1,9 +1,9 @@
 import { useCallback, useEffect, useState } from 'react'
-import { normalizeSignData } from '../sign/signArchive'
-import { signDataDiffers } from '../sign/signArchiveSearch'
-import { resolveSignValues } from '../sign/signDefaults'
-import { ROOM_SIGN_TYPES } from '../sign/signConstants'
-import { CUT_GUIDES, DEFAULT_SHEET_OPTIONS, SHEET_LAYOUTS, SHEET_SPACINGS } from '../sign/printSheet'
+import { normalizeSignData } from '../sign/signArchive.js'
+import { signDataDiffers } from '../sign/signArchiveSearch.js'
+import { resolveSignValues } from '../sign/signDefaults.js'
+import { ROOM_SIGN_TYPES } from '../sign/signConstants.js'
+import { CUT_GUIDES, DEFAULT_SHEET_OPTIONS, SHEET_LAYOUTS, SHEET_SPACINGS } from '../sign/printSheet.js'
 
 const STORAGE_KEY = 'unbc-door-sign:print-sheet'
 const MAX_ENTRIES = 60

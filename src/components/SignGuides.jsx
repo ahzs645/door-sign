@@ -1,8 +1,8 @@
 import React, { useId } from 'react'
-import { layoutSignArtwork } from '../sign/SignArtwork'
-import { PT_PER_INCH, SAFE_INCHES } from '../sign/signConstants'
-import { formatLength } from '../sign/units'
-import { useUnits } from '../hooks/useUnits'
+import { layoutSignArtwork } from '../sign/SignArtwork.jsx'
+import { PT_PER_INCH, SAFE_INCHES } from '../sign/signConstants.js'
+import { formatLength } from '../sign/units.js'
+import { useUnits } from '../hooks/useUnits.js'
 
 // Print guides drawn over the artwork in its own canvas points, from the same layout the artwork
 // is drawn with:

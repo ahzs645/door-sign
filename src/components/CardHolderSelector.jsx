@@ -1,9 +1,9 @@
 import React, { useRef, useState } from 'react'
-import { CustomSelect } from './CustomSelect'
-import { CustomHolderEditor } from './CustomHolderEditor'
-import { PLATE_STYLES, LINE_COLORS, resolveHolderPlate } from './HolderMockup'
-import { DEFAULT_INSERT_SIZE } from '../sign/signConstants'
-import { holderFileName, holderPresetCode, holdersFromFile, holdersToFile } from '../sign/holderExport'
+import { CustomSelect } from './CustomSelect.jsx'
+import { CustomHolderEditor } from './CustomHolderEditor.jsx'
+import { PLATE_STYLES, LINE_COLORS, resolveHolderPlate } from './HolderMockup.jsx'
+import { DEFAULT_INSERT_SIZE } from '../sign/signConstants.js'
+import { holderFileName, holderPresetCode, holdersFromFile, holdersToFile } from '../sign/holderExport.js'
 
 const downloadText = (text, fileName) => {
   const url = URL.createObjectURL(new Blob([text], { type: 'application/json' }))

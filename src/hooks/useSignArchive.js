@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
-import { createSignArchive, parseSignArchive } from '../sign/signArchive'
-import { signDataDiffers } from '../sign/signArchiveSearch'
+import { createSignArchive, parseSignArchive } from '../sign/signArchive.js'
+import { signDataDiffers } from '../sign/signArchiveSearch.js'
 
 const downloadJson = (archive, filename) => {
   const blob = new Blob([`${JSON.stringify(archive, null, 2)}\n`], { type: 'application/json' })

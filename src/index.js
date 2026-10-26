@@ -5,6 +5,8 @@
 // class "door-sign-app": every rule is scoped to it.
 
 export * from './core.js'
+export { exportSignPNG, exportPrintRunPDF } from './sign/signExport.js'
+export { SHEET_MODES, buildMeasuringSheet, measuringSheetFilename, downloadMeasuringSheet, printMeasuringSheet } from './sign/measuringSheets.js'
 export { DoorSignEditor } from './DoorSignEditor.jsx'
 export { useDoorSign } from './useDoorSign.js'
 

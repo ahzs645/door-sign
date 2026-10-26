@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
-import { SegmentedControl } from './SegmentedControl'
-import { setUnits, useUnits } from '../hooks/useUnits'
+import { SegmentedControl } from './SegmentedControl.jsx'
+import { setUnits, useUnits } from '../hooks/useUnits.js'
 
 const UNIT_OPTIONS = [
   { value: 'mm', label: 'Millimetres' },

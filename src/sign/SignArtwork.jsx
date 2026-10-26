@@ -1,10 +1,10 @@
 import React, { forwardRef } from 'react'
 import { UnbcLogoMark, AlumniCrest } from '../../vendor/unbc-logo/src/index.js'
-import { PT_PER_INCH, DEFAULT_INSERT_SIZE } from './signConstants'
-import { resolveHeaderGeometry } from './headerGeometry'
-import { splitRoleTitle } from './signRoles'
-import { resolveOrganization } from './organizations'
-import { NugssLogoMark } from './NugssLogoMark'
+import { PT_PER_INCH, DEFAULT_INSERT_SIZE } from './signConstants.js'
+import { resolveHeaderGeometry } from './headerGeometry.js'
+import { splitRoleTitle } from './signRoles.js'
+import { resolveOrganization } from './organizations.js'
+import { NugssLogoMark } from './NugssLogoMark.jsx'
 import ctaanLogo from '../assets/ctaan-logo.png'
 
 export const ARTWORK_FONT = "'HelveticaNeueUNBC', 'HelveticaNeueUNBCFallback', 'Helvetica Neue', Helvetica, Arial, sans-serif"

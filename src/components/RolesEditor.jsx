@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import { SegmentedControl } from './SegmentedControl'
-import { EMPTY_ROLE, hasTitleSeparator, separateRoleUnit } from '../sign/signRoles'
+import { SegmentedControl } from './SegmentedControl.jsx'
+import { EMPTY_ROLE, hasTitleSeparator, separateRoleUnit } from '../sign/signRoles.js'
 
 const UNIT_LAYOUT_OPTIONS = [
   { value: 'beside', label: 'Beside |' },

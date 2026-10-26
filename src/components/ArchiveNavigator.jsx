@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import { SignCombobox } from './SignCombobox'
+import { SignCombobox } from './SignCombobox.jsx'
 
 const Chevron = ({ direction }) => (
   <svg viewBox="0 0 24 24" aria-hidden="true">

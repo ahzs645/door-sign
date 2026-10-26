@@ -80,7 +80,8 @@ is not scoped.
 ## Fonts
 
 The sign is set in Helvetica Neue LT Pro (`fonts/`), with the older Helvetica Neue faces for
-characters LT Pro lacks; the PDF exporter embeds them. These are licensed commercial fonts,
+characters LT Pro lacks; the PDF exporter embeds them. `scripts/build-fonts.py` builds the LT Pro faces (and
+`src/sign/brandFontCoverage.js`) from the font package in the logo kit (`pip install fonttools`). These are licensed commercial fonts,
 redistributed on the same basis as UNBCDoor and the logo kit they came from. Check your licence
 before relying on them in a new context.
 

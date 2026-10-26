@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
-import { CustomSelect } from './CustomSelect'
-import { DepartmentField } from './DepartmentField'
-import { FormSection } from './FormSection'
-import { SegmentedControl } from './SegmentedControl'
-import { Switch } from './Switch'
-import { RolesEditor } from './RolesEditor'
-import { NAME_TITLES, emailFromName, getDefaultValues } from '../sign/signDefaults'
+import { CustomSelect } from './CustomSelect.jsx'
+import { DepartmentField } from './DepartmentField.jsx'
+import { FormSection } from './FormSection.jsx'
+import { SegmentedControl } from './SegmentedControl.jsx'
+import { Switch } from './Switch.jsx'
+import { RolesEditor } from './RolesEditor.jsx'
+import { NAME_TITLES, emailFromName, getDefaultValues } from '../sign/signDefaults.js'
 
 const ROOM_TYPES = ['lab', 'general-room', 'custodian-closet']
 

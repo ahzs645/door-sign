@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import { INITIAL_SIGN_DATA } from '../sign/signData'
-import { switchOrganization } from '../sign/organizations'
-import { ROOM_SIGN_TYPES } from '../sign/signConstants'
+import { INITIAL_SIGN_DATA } from '../sign/signData.js'
+import { switchOrganization } from '../sign/organizations.js'
+import { ROOM_SIGN_TYPES } from '../sign/signConstants.js'
 
 // Style options are stored with each sign so JSON imports retain their exact appearance.
 //

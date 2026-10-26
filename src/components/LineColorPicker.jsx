@@ -1,5 +1,5 @@
 import React from 'react'
-import { LINE_COLORS } from './HolderMockup'
+import { LINE_COLORS } from './HolderMockup.jsx'
 
 // The colour of the line under the room number: the plate colours in use on campus as swatches,
 // plus any other colour from the system picker.

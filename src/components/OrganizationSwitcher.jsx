@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { UnbcLogoMark } from '../../vendor/unbc-logo/src/index.js'
-import { NugssLogoMark } from '../sign/NugssLogoMark'
-import { NUGSS_LOGO } from '../assets/nugssLogo'
-import { ORGANIZATIONS } from '../sign/organizations'
+import { NugssLogoMark } from '../sign/NugssLogoMark.jsx'
+import { NUGSS_LOGO } from '../assets/nugssLogo.js'
+import { ORGANIZATIONS } from '../sign/organizations.js'
 
 // Each organization's logo as it sits on its own colour, cropped to the ink.
 export const OrganizationLogo = ({ organization, className }) => (

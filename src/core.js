@@ -1,6 +1,6 @@
-// The door sign without React: its data, content, geometry, archives, print sheets and exports.
-// Plain modules, so a build script or a server can use them; the exporters and measuring sheets
-// need a browser (canvas, jsPDF), the rest runs anywhere.
+// The door sign without React or a browser: its data, content, geometry, archives, print sheets
+// and holders, as plain modules that run in Node too (tests, build scripts). The exporters and
+// measuring sheets need a browser and its fonts, so they are exported from index.js only.
 
 export { INITIAL_SIGN_DATA } from './sign/signData.js'
 export { buildSignContent } from './sign/signContent.js'
@@ -18,5 +18,3 @@ export { CUSTOM_HOLDERS_KEY, validateCustomHolder, toCardHolder, toCustomRecord,
 export { holdersToFile, holdersFromFile, holderFileName } from './sign/holderExport.js'
 export { UNIT_CHOICES, DEFAULT_UNITS, toMillimetres, formatLength, formatSize } from './sign/units.js'
 export { cardHolders } from './data/cardHolders.js'
-export { exportSignPNG, exportPrintRunPDF } from './sign/signExport.js'
-export { SHEET_MODES, buildMeasuringSheet, measuringSheetFilename, downloadMeasuringSheet, printMeasuringSheet } from './sign/measuringSheets.js'

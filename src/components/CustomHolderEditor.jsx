@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import { SegmentedControl } from './SegmentedControl'
-import { useUnits } from '../hooks/useUnits'
-import { LineColorPicker } from './LineColorPicker'
-import { DEFAULT_LINE_COLOR, PLATE_STYLES, resolveHolderPlate } from './HolderMockup'
-import { MAX_HOLDER_NAME, MAX_ROOM_NUMBER, validateCustomHolder } from '../sign/customHolders'
-import { MM_PER_INCH } from '../sign/templateGeometry'
+import { SegmentedControl } from './SegmentedControl.jsx'
+import { useUnits } from '../hooks/useUnits.js'
+import { LineColorPicker } from './LineColorPicker.jsx'
+import { DEFAULT_LINE_COLOR, PLATE_STYLES, resolveHolderPlate } from './HolderMockup.jsx'
+import { MAX_HOLDER_NAME, MAX_ROOM_NUMBER, validateCustomHolder } from '../sign/customHolders.js'
+import { MM_PER_INCH } from '../sign/templateGeometry.js'
 
 const EDGES = [
   { key: 'top', label: 'Top' },

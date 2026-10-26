@@ -5,14 +5,14 @@ import {
   searchDepartmentHierarchy,
   toDepartmentSelection
 } from '../../vendor/unbc-logo/src/index.js'
-import { CustomSelect } from './CustomSelect'
+import { CustomSelect } from './CustomSelect.jsx'
 import {
   DEPARTMENT_LEVELS,
   departmentAreaName,
   departmentChildren,
   resolveDepartmentPath,
   selectDepartmentLevel
-} from '../sign/departmentPath'
+} from '../sign/departmentPath.js'
 
 // The department on the sign's header: a search across the whole list, and under it the chosen
 // path, one level per line. Each level is a dropdown of the other choices at that level, so a

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
-import { INITIAL_SIGN_DATA } from '../sign/signData'
-import { DEFAULT_ORGANIZATION, ORGANIZATIONS, switchOrganization } from '../sign/organizations'
+import { INITIAL_SIGN_DATA } from '../sign/signData.js'
+import { DEFAULT_ORGANIZATION, ORGANIZATIONS, switchOrganization } from '../sign/organizations.js'
 
 const ORGANIZATION_KEY = 'unbc-door-sign:organization'
 

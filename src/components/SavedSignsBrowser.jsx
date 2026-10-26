@@ -1,9 +1,9 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react'
-import { SignArtwork } from '../sign/SignArtwork'
-import { buildSignContent } from '../sign/signContent'
+import { SignArtwork } from '../sign/SignArtwork.jsx'
+import { buildSignContent } from '../sign/signContent.js'
 import {
   SIGN_TYPE_LABELS, countSignTypes, describeSignEntry, filterSignEntries
-} from '../sign/signArchiveSearch'
+} from '../sign/signArchiveSearch.js'
 
 const SignThumbnail = ({ signData, cardHolders }) => {
   const content = useMemo(

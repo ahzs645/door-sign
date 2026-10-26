@@ -42,3 +42,9 @@ test('the source never reaches outside the package', () => {
     }
   }
 })
+
+test('the core runs in Node, without React or a browser', async () => {
+  const core = await import('./core.js')
+  const content = core.buildSignContent({ ...core.INITIAL_SIGN_DATA, name: 'Dr. Jane Doe', ...core.departmentSelection((await import('../vendor/unbc-logo/src/departments/departmentData.js')).departmentTypes, 'School of Engineering') }, { cardHolders: core.cardHolders })
+  assert.equal(content.departmentText, 'School of Engineering')
+})

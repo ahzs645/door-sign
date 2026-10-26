@@ -1,7 +1,7 @@
 import React from 'react'
-import { SegmentedControl } from './SegmentedControl'
-import { Switch } from './Switch'
-import { InfoTip } from './InfoTip'
+import { SegmentedControl } from './SegmentedControl.jsx'
+import { Switch } from './Switch.jsx'
+import { InfoTip } from './InfoTip.jsx'
 
 const GUIDE_OPTIONS = [
   { value: 'marks', label: 'Crop marks' },

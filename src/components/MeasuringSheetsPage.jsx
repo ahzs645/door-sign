@@ -1,15 +1,15 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react'
-import { CustomSelect } from './CustomSelect'
-import { SegmentedControl } from './SegmentedControl'
-import { useUnits } from '../hooks/useUnits'
-import { Switch } from './Switch'
-import { PAPER_ORDER, PAPER_DIMENSIONS } from '../sign/signConstants'
-import { resolveCardHolderGeometry } from '../sign/signGeometry'
-import { MM_PER_INCH } from '../sign/templateGeometry'
-import { formatSizeBoth } from '../sign/units'
-import { holderFromStripReadings, stripReadingsForHolder } from '../sign/stripGeometry'
-import { DEFAULT_PLATE_STYLE, PLATE_STYLES } from './HolderMockup'
-import { MAX_HOLDER_NAME, validateCustomHolder } from '../sign/customHolders'
+import { CustomSelect } from './CustomSelect.jsx'
+import { SegmentedControl } from './SegmentedControl.jsx'
+import { useUnits } from '../hooks/useUnits.js'
+import { Switch } from './Switch.jsx'
+import { PAPER_ORDER, PAPER_DIMENSIONS } from '../sign/signConstants.js'
+import { resolveCardHolderGeometry } from '../sign/signGeometry.js'
+import { MM_PER_INCH } from '../sign/templateGeometry.js'
+import { formatSizeBoth } from '../sign/units.js'
+import { holderFromStripReadings, stripReadingsForHolder } from '../sign/stripGeometry.js'
+import { DEFAULT_PLATE_STYLE, PLATE_STYLES } from './HolderMockup.jsx'
+import { MAX_HOLDER_NAME, validateCustomHolder } from '../sign/customHolders.js'
 import {
   GRID_DETAIL_OPTIONS,
   SHEET_MODES,
@@ -17,7 +17,7 @@ import {
   getSheetMode,
   measuringSheetPreviewUrl,
   printMeasuringSheet
-} from '../sign/measuringSheets'
+} from '../sign/measuringSheets.js'
 
 const CUSTOM_HOLDER = 'custom'
 

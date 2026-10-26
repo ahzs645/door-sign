@@ -1,6 +1,6 @@
 import React from 'react'
-import { SignArtwork } from '../sign/SignArtwork'
-import { PT_PER_INCH } from '../sign/signConstants'
+import { SignArtwork } from '../sign/SignArtwork.jsx'
+import { PT_PER_INCH } from '../sign/signConstants.js'
 
 // One printed sheet, drawn from the same layout the PDF exporter uses: the paper, each card at
 // its slot (clipped to the part of the sheet it prints on), the cut lines over them, the crop

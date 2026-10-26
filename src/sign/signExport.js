@@ -8,8 +8,8 @@ import {
   ARTWORK_ITALIC_FAMILY,
   ARTWORK_BOLD_FAMILY,
   ARTWORK_BLACK_FAMILY
-} from './pdfFonts'
-import { PT_PER_INCH, BLEED_INCHES } from './signConstants'
+} from './pdfFonts.js'
+import { PT_PER_INCH, BLEED_INCHES } from './signConstants.js'
 
 // Pure, non-React export helpers. Each takes the live artwork <svg> node plus the geometry
 // it needs and triggers a browser download. Kept out of the React tree so the heavy

@@ -1,8 +1,8 @@
 import React from 'react'
-import { FormSection } from './FormSection'
-import { DesignationsContainer } from './DesignationsContainer'
-import { Switch } from './Switch'
-import { firstName } from './SignForm'
+import { FormSection } from './FormSection.jsx'
+import { DesignationsContainer } from './DesignationsContainer.jsx'
+import { Switch } from './Switch.jsx'
+import { firstName } from './SignForm.jsx'
 
 // Professional designations — offered on faculty and staff signs only. They follow the first
 // person's name; each person's alumni crest is switched on in their own tab of the form.

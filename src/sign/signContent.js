@@ -1,8 +1,8 @@
-import { getDepartmentDisplayName } from '../../vendor/unbc-logo/src/index.js'
-import { BLEED_INCHES } from './signConstants'
-import { resolveSignValues } from './signDefaults'
-import { resolveCardHolderGeometry } from './signGeometry'
-import { DEFAULT_ORGANIZATION, ORGANIZATIONS } from './organizations'
+import { getDepartmentDisplayName } from '../../vendor/unbc-logo/src/departments/hierarchy.js'
+import { BLEED_INCHES } from './signConstants.js'
+import { resolveSignValues } from './signDefaults.js'
+import { resolveCardHolderGeometry } from './signGeometry.js'
+import { DEFAULT_ORGANIZATION, ORGANIZATIONS } from './organizations.js'
 
 // Turns the editor's sign data into the content object <SignArtwork> draws. The main preview,
 // the phone/tablet live preview, both exporters, and the archive review viewer all build their

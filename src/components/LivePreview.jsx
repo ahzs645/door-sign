@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react'
-import { SignArtwork } from '../sign/SignArtwork'
-import { buildSignContent } from '../sign/signContent'
+import { SignArtwork } from '../sign/SignArtwork.jsx'
+import { buildSignContent } from '../sign/signContent.js'
 
 // Compact, always-visible copy of the sign for phones and tablets, where the editor and the full
 // preview are on separate tabs. It draws the trimmed card only (no bleed or guides) so it reads

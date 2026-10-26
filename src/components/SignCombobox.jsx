@@ -1,5 +1,5 @@
 import React, { useEffect, useId, useMemo, useRef, useState } from 'react'
-import { describeSignEntry, filterSignEntries } from '../sign/signArchiveSearch'
+import { describeSignEntry, filterSignEntries } from '../sign/signArchiveSearch.js'
 
 /**
  * Searchable picker for a loaded sign archive (ARIA 1.2 combobox with a listbox popup).
