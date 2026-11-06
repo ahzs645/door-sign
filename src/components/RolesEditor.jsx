@@ -193,8 +193,7 @@ export const RolesEditor = ({ id, roles = [], onChange, placeholder = 'e.g. Asso
         + Add another position
       </button>
       <p className="field-hint">
-        A department prints as “Position | Department” (or without the bar), on its own line, or
-        not at all. Press Enter in a position for a line break you want kept on the sign.
+        Press Enter in a position to keep a line break.
       </p>
     </div>
   )
