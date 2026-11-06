@@ -28,7 +28,7 @@ const ALUMNI_TYPES = ['faculty', 'staff']
 // The fields one person carries, as stored with a 2 or 3 suffix for the second and third person.
 const THIRD_PERSON_FIELDS = ['name', 'roles', 'tagline', 'email', 'phone', 'cellPhone', 'showEmail', 'showPhone', 'showCellPhone', 'showAlumni']
 
-const TAGLINE_HINT = 'Prints in italics. Wrap a line in *asterisks* to print it upright instead, and press Enter for a line break you want kept on the sign.'
+const TAGLINE_HINT = 'Prints in italics; *asterisks* print upright. Press Enter to keep a line break.'
 
 // A name labels a tab by its first word after any title ("Dr. Jane Doe" → "Jane").
 export const firstName = (name) => {
@@ -244,7 +244,7 @@ export const SignForm = ({ signData, onUpdate, departments }) => {
       <p className="form-subheading__hint">
         {suffix
           ? `Printed with the same labels as ${isPerson ? `${tabLabels[0]}’s` : 'the room’s'}.`
-          : `Each line prints as “Label: value”. Clear a label to print the value on its own.${isPerson ? ' A blank email prints as first.last@unbc.ca.' : ''}`}
+          : `Clear a label to print the value alone.${isPerson ? ' A blank email prints as first.last@unbc.ca.' : ''}`}
       </p>
       <div className="contact-rows">{contactRows(suffix, !suffix)}</div>
     </div>
